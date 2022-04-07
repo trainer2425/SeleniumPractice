@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite">
+	<test thread-count="10" name="Addition" parallel = "tests">
+	  	<parameter name ="value1" value = "10"/>
+	  	<parameter name ="value2" value = "20"/>
+		<classes>
+			<class name="com.training.parameters.ParameterizingTestCases" />
+		</classes>
+	</test> <!-- SanityTest -->
+	
+	<test thread-count="10" name="Multiply" parallel = "tests">
+	  	<parameter name ="value1" value = "40"/>
+	  	<parameter name ="value2" value = "50"/>
+		<classes>
+			<class name="com.training.parameters.Multiply" />
+		</classes>
+	</test> <!-- SanityTest -->
+	
+	
+	
+	
+</suite> <!-- SanitySuite -->

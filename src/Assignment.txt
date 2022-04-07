@@ -1,0 +1,102 @@
+Day 1:
+------
+
+Launch the browser in Edge/Firefox
+
+
+Day 2:
+------
+
+Launch the url - https://www.techlistic.com/p/selenium-practice-form.html
+Enter First Name and Last Name
+Select Gender and "Years of Experience"
+Select checkbox - Automation Tester
+Select continent - Europe
+
+
+Day 3:
+-----
+
+1. Launch the url - http://automationpractice.com/index.php?id_product=7&controller=product
+2. Print all the social media websites listed
+3. Select Quantity as 10
+4. Select the size as "L"
+5. Add product to cart
+6. Print the message displayed after adding the product to cart
+
+
+
+Day 4:
+-----
+
+
+- Launch the browser http://automationpractice.com/index.php
+- Mouse hover on dresses and select summer dresses
+- Mouse hover on first product and add to cart
+- If message is equal to - "Product successfully added to your shopping cart". Print - "I added the product"
+- Print all the product description (Ex:Quantity, Total etc)
+- Click on "Proceed checkout" button
+- If url contains - "controller=order", then print the message - "I have navigated to Checkout page"
+
+
+Day 5:
+------
+
+
+- Launch the browser - MyWebPage.html
+- Navigate to Vacationplanner -> AirBng -> Mariott
+- Get url of Mariott
+- CLick on Travel guidance link
+- Get the url of travel guidance
+- Move back to  MyWebPage
+- Enter FirstName and LastName
+- Select "HTML" radio button
+
+
+
+Story#1:
+-------
+
+Given I launch the application
+And I enter a unique email Id
+Then I verify that the system allows me to register to the application
+When I enter all mandatory fields
+And I click on register
+Then I should be logged in 
+
+
+Story#2:
+--------
+
+Given I search for any summer dress
+And I navigate to Product description page
+When I try to add the product to wishlist
+Then I should see a message - "You must be logged in to manage your wishlist."
+When I close the error message
+Then I verify that I am still on the same page
+
+
+Story#3:
+--------
+
+Given I login with valid credentials
+And I search for any summer dress
+And I navigate to Product description page
+When I try to add the product to wishlist
+Then I should see a message - "Added to your wishlist."
+When I close the error message
+Then I verify that I am still on the same page
+When I navigate to wishlist
+Then I should be able to see the product listed
+
+
+Story #4:
+------------
+
+Given I launch the application
+Then I verify the url is - http://automationpractice.com/index.php
+When I click on Sign in button 
+Then I should be redirected to - http://automationpractice.com/index.php?controller=authentication&back=my-account
+
+
+

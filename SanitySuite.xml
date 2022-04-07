@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite">
+	<test thread-count="10" name="SanityTest" parallel = "tests">
+	  	<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>  
+		<classes>
+			<class name="com.training.testNGDay1.AddToCartTest" />
+			<class name="com.training.testNGDay1.LoginTest" />
+			<class name="com.training.testNGDay1.MyFirstTest" />
+			<class name="com.training.testNGDay1.NewTest" />
+			<class name="com.training.testNGDay1.SampleTest" />
+			<class name="com.training.testNGDay1.SampleTest2" />
+			<class name="com.training.testNGDay1.SampleTest3" />
+			<class name="com.training.testNGDay1.SampleTest4" />
+		</classes>
+	</test> <!-- SanityTest -->
+	
+	
+	
+	
+</suite> <!-- SanitySuite -->
