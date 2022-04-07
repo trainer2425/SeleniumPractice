@@ -14,8 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WorkingWithElements {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-
+	
 		
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\Softwares\\Selenium Drivers\\chromedriver_win32\\chromedriver.exe");
