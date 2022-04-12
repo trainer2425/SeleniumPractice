@@ -16,6 +16,7 @@ public class WorkingWithElements {
 	public static void main(String[] args) throws InterruptedException {
 	
 		
+		
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\Softwares\\Selenium Drivers\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
